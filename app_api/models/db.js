@@ -61,3 +61,5 @@ process.on('SIGTERM', () => {
 connect();
 
 require('./travlr');
+require('./user');
+Require("./models/user"); //added requirement from announcement
